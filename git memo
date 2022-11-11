@@ -1,0 +1,12 @@
+// 自分の修正を反映させたいとき
+$ git add .
+$ git commit -m ""
+$ git push origin main
+
+// 相手の修正を反映させたいとき
+// ①pullの場合
+$ git pull -u origin main
+
+// ②margeさせるとき
+$ git fetch
+$ git merge
