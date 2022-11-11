@@ -5,7 +5,7 @@ $ git push origin main
 
 // 相手の修正を反映させたいとき
 // ①pullの場合
-$ git pull
+$ git pull origin main
 
 // ②margeさせるとき
 $ git fetch
